@@ -17,7 +17,7 @@ cmake -S . -B build
 cmake --build build
 ```
 
-需要确保 Qt 6 的 CMake 包可以被 CMake 找到。MSVC 配置额外启用 `/Zc:__cplusplus` 和 `/utf-8`。仓库中的 `cmake-build-debug` / `cmake-build-release` 是本地构建目录，不属于源码结构。
+
 
 ## 目录结构
 
